@@ -1,5 +1,5 @@
 # In-Vehicle-Coupon-Recommendation-
-In-Vehicle Coupon Recommendation ML Project
+In-Vehicle Coupon Recommendation ML Project :
 
 Problem statement:
 The given data was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios, including the destination, current time, weather, and passengers. It then asks whether the driver will accept the coupon.
