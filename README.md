@@ -1,24 +1,69 @@
-# In-Vehicle-Coupon-Recommendation-
-In-Vehicle Coupon Recommendation ML Project:<br>
+# In-Vehicle Coupon Recommendation
 
-Problem statement:<br>
-The given data was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios, including the destination, current time, weather, and passengers. It then asks whether the driver will accept the coupon.
+## Project Overview
+The **In-Vehicle Coupon Recommendation** project focuses on predicting whether a driver will accept a coupon based on various contextual, customer, and situational factors. The dataset captures real-world driving scenarios and user preferences collected through a survey.
 
-Objective:<br>
-We aim to build a classification model to predict whether the coupon will be accepted or not in various driving scenarios based on customer and situational features.
+This is a **machine learning classification problem** where the goal is to determine coupon acceptance behavior.
 
-Information on the dataset:<br>
-Dataset Characteristics - Multivariate<br>
-Subject Area - Business<br>
-Associated Tasks - Classification<br>
-Feature Type - Categorical, Integer<br>
-Instances in dataset - 12684<br>
-Features in dataset - 25<br>
-Has Missing Values? - Yes<br>
-Currency - $ (USD)<br>
+---
 
-Information on target variable:<br>
-Y : 1, 0 (Whether the coupon is accepted? Yes = 1, No = 0)
+## Problem Statement
+The dataset was collected via a survey conducted on **Amazon Mechanical Turk**. Each survey instance represents a driving scenario, including information such as:
+- Destination
+- Current time
+- Weather conditions
+- Passenger details
 
-References used:<br>
-Dataset from the repository: In-Vehicle Coupon Recommendation from UCI Machine Learning Repository. https://doi.org/10.24432/C5GS4P
+Based on these factors, the survey records whether the driver accepted the coupon.
+
+---
+
+## Objective
+To build a **classification model** that predicts whether a coupon will be accepted (`Yes` or `No`) under different driving scenarios using customer and situational features.
+
+---
+
+## Dataset Information
+
+- **Dataset Name:** In-Vehicle Coupon Recommendation  
+- **Source:** UCI Machine Learning Repository  
+- **Dataset Type:** Multivariate  
+- **Subject Area:** Business  
+- **Associated Task:** Classification  
+- **Feature Types:** Categorical, Integer  
+- **Number of Instances:** 12,684  
+- **Number of Features:** 25  
+- **Missing Values:** Yes  
+- **Currency:** USD ($)
+
+---
+
+## Target Variable
+
+- **Y**
+  - `1` → Coupon Accepted  
+  - `0` → Coupon Not Accepted  
+
+---
+
+## Machine Learning Task
+This project treats coupon acceptance as a **binary classification problem**, where the model learns patterns from customer demographics and situational contexts to predict user behavior.
+
+---
+
+## References
+- **Dataset:** In-Vehicle Coupon Recommendation  
+- **Repository:** UCI Machine Learning Repository  
+- **DOI:** https://doi.org/10.24432/C5GS4P
+
+---
+
+## Notes
+- Data preprocessing is required due to missing values.
+- Most features are categorical and require appropriate encoding techniques.
+- The project is suitable for experimenting with classification models such as Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting.
+
+---
+
+## Author
+Machine Learning Project – In-Vehicle Coupon Recommendation
