@@ -64,6 +64,3 @@ This project treats coupon acceptance as a **binary classification problem**, wh
 - The project is suitable for experimenting with classification models such as Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting.
 
 ---
-
-## Author
-Machine Learning Project – In-Vehicle Coupon Recommendation
