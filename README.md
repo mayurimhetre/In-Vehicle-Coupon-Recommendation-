@@ -1,4 +1,4 @@
-# In-Vehicle Coupon Recommendation
+# In-Vehicle Coupon Recommendation (Machine Learning Project)
 
 ## Project Overview
 The **In-Vehicle Coupon Recommendation** project focuses on predicting whether a driver will accept a coupon based on various contextual, customer, and situational factors. The dataset captures real-world driving scenarios and user preferences collected through a survey.
